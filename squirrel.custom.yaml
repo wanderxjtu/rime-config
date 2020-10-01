@@ -1,0 +1,4 @@
+patch:
+  style/font_point: 14
+  style/horizontal: true 
+  style/color_scheme: mojave_dark
