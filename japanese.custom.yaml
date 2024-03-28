@@ -1,0 +1,8 @@
+# Rime schema
+patch:
+  switches/@0:
+    name: acsii_mode
+    reset: 0
+    states: [ 日文，en ]
+  key_binder:
+    import_preset: default
