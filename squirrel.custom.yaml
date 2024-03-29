@@ -2,32 +2,14 @@ patch:
   style/font_point: 14
   style/horizontal: true 
   style/color_scheme: mojave_dark
+  style/corner_radius: 6
 
   app_options:
-    org.vim.MacVim:
-      ascii_mode: true  # 初始爲西文模式
-      no_inline: true   # 不使用行內編輯
-      vim_mode: true    # 退出VIM插入模式自動切換輸入法狀態
     net.kovidgoyal.kitty:
       ascii_mode: true
       vim_mode: true
     md.obsidian:
       vim_mode: true
-    com.apple.Spotlight:
-      ascii_mode: true
-    com.apple.Terminal:
-      ascii_mode: true
-      no_inline: true
-    com.apple.dt.Xcode:
-      ascii_mode: true
-    com.microsoft.VSCode:
-      ascii_mode: true
     com.microsoft.edgemac:
-      inline: true
-    com.google.Chrome:
-      # 規避 https://github.com/rime/squirrel/issues/435
-      inline: true
-    ru.keepcoder.Telegram:
-      # 規避 https://github.com/rime/squirrel/issues/475
       inline: true
 
