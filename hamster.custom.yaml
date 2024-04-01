@@ -419,8 +419,12 @@ patch:
           display: false
           processByRIME: true
           direction: right
+      - action: { shortcutCommand: "#RimeSwitcher" }
+        width: { percentage: 0.125 }
+        label: fn
       - action: enter
-        width: { percentage: 0.25 }
+        width: { percentage: 0.185 }
+
   keyboard/colorSchemas/+:
   - schemaName: aqua
     name: 碧水／Aqua
