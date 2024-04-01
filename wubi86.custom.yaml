@@ -1,0 +1,10 @@
+patch:
+  switches/+:
+  - name: simplification
+    states: [ 汉字, 漢字 ]
+    reset: 0
+  engine/filters:
+  - simplifier
+  - uniquifier
+  simplifier:
+    opencc_config: s2t.json
