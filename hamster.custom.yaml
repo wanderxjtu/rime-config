@@ -1,4 +1,426 @@
 patch:
+  keyboards/+:
+  - isPrimary: true
+    name: "\u65B026\u952E"
+    rows:
+    - keys:
+      - action:
+          character:
+            char: q
+        label: q
+        swipe:
+        - action:
+            character:
+              char: '!'
+          direction: up
+          display: true
+        - action:
+            character:
+              char: '1'
+          direction: down
+          display: true
+      - action:
+          character:
+            char: w
+        label: w
+        swipe:
+        - action:
+            character:
+              char: '@'
+          direction: up
+          display: true
+        - action:
+            character:
+              char: '2'
+          direction: down
+          display: true
+      - action:
+          character:
+            char: e
+        label: e
+        swipe:
+        - action:
+            character:
+              char: '#'
+          direction: up
+          display: true
+        - action:
+            character:
+              char: '3'
+          direction: down
+          display: true
+      - action:
+          character:
+            char: r
+        label: r
+        swipe:
+        - action:
+            character:
+              char: $
+          direction: up
+          display: true
+        - action:
+            character:
+              char: '4'
+          direction: down
+          display: true
+      - action:
+          character:
+            char: t
+        label: t
+        swipe:
+        - action:
+            character:
+              char: '%'
+          direction: up
+          display: true
+        - action:
+            character:
+              char: '5'
+          direction: down
+          display: true
+      - action:
+          character:
+            char: y
+        label: y
+        swipe:
+        - action:
+            character:
+              char: ^
+          direction: up
+          display: true
+        - action:
+            character:
+              char: '6'
+          direction: down
+          display: true
+      - action:
+          character:
+            char: u
+        label: u
+        swipe:
+        - action:
+            character:
+              char: '&'
+          direction: up
+          display: true
+        - action:
+            character:
+              char: '7'
+          direction: down
+          display: true
+      - action:
+          character:
+            char: i
+        label: i
+        swipe:
+        - action:
+            character:
+              char: '*'
+          direction: up
+          display: true
+        - action:
+            character:
+              char: '8'
+          direction: down
+          display: true
+      - action:
+          character:
+            char: o
+        label: o
+        swipe:
+        - action:
+            character:
+              char: (
+          direction: up
+          display: true
+        - action:
+            character:
+              char: '9'
+          direction: down
+          display: true
+      - action:
+          character:
+            char: p
+        label: p
+        swipe:
+        - action:
+            character:
+              char: )
+          direction: up
+          display: true
+        - action:
+            character:
+              char: '0'
+          direction: down
+          display: true
+    - keys:
+      - action: { characterMargin: { char: "a" } }
+        width: available
+      - action:
+          character:
+            char: a
+        label: a
+        swipe:
+        - action:
+            character:
+              char: '~'
+          direction: up
+          display: true
+        - action:
+            character:
+              char: '`'
+          direction: down
+          display: true
+      - action:
+          character:
+            char: s
+        label: s
+        swipe:
+        - action:
+            character:
+              char: _
+          direction: up
+          display: true
+        - action:
+            character:
+              char: '-'
+          direction: down
+          display: true
+      - action:
+          character:
+            char: d
+        label: d
+        swipe:
+        - action:
+            character:
+              char: +
+          direction: up
+          display: true
+        - action:
+            character:
+              char: '='
+          direction: down
+          display: true
+      - action:
+          character:
+            char: f
+        label: f
+        swipe:
+        - action:
+            character:
+              char: '{'
+          direction: up
+          display: true
+        - action:
+            character:
+              char: '['
+          direction: down
+          display: true
+      - action:
+          character:
+            char: g
+        label: g
+        swipe:
+        - action:
+            character:
+              char: '}'
+          direction: up
+          display: true
+        - action:
+            character:
+              char: ']'
+          direction: down
+          display: true
+      - action:
+          character:
+            char: h
+        label: h
+        swipe:
+        - action:
+            character:
+              char: '|'
+          direction: up
+          display: true
+        - action:
+            character:
+              char: \
+          direction: down
+          display: true
+      - action:
+          character:
+            char: j
+        label: j
+        swipe:
+        - action:
+            character:
+              char: ':'
+          direction: up
+          display: true
+        - action:
+            character:
+              char: ;
+          direction: down
+          display: true
+      - action:
+          character:
+            char: k
+        label: k
+        swipe:
+        - action:
+            character:
+              char: '"'
+          direction: up
+          display: true
+        - action:
+            character:
+              char: ''''
+          direction: down
+          display: true
+      - action:
+          character:
+            char: l
+        label: l
+        swipe:
+        - action:
+            character:
+              char: "\u201C\u201D"
+          direction: up
+          display: true
+        - action:
+            character:
+              char: "\u2018\u2019"
+          direction: down
+          display: true
+      - action: { characterMargin: { char: "l" } }
+        width: available
+    - keys:
+      - action: shift
+        width: { percentage: 0.13 }
+      - action: { characterMargin: { char: "z" } }
+        width: available
+      - action:
+          character:
+            char: z
+        label: z
+        swipe:
+        - action:
+            character:
+              char: <
+          direction: up
+          display: true
+        - action:
+            character:
+              char: ','
+          direction: down
+          display: true
+      - action:
+          character:
+            char: x
+        label: x
+        swipe:
+        - action:
+            character:
+              char: '>'
+          direction: up
+          display: true
+        - action:
+            character:
+              char: .
+          direction: down
+          display: true
+      - action:
+          character:
+            char: c
+        label: c
+        swipe:
+        - action:
+            character:
+              char: '?'
+          direction: up
+          display: true
+        - action:
+            character:
+              char: /
+          direction: down
+          display: true
+      - action:
+          character:
+            char: v
+        label: v
+        swipe:
+        - action:
+            character:
+              char: "\u300A"
+          direction: up
+          display: true
+        - action:
+            character:
+              char: "\uFF0C"
+          direction: down
+          display: true
+      - action:
+          character:
+            char: b
+        label: b
+        swipe:
+        - action:
+            character:
+              char: "\u300B"
+          direction: up
+          display: true
+        - action:
+            character:
+              char: "\u3002"
+          direction: down
+          display: true
+      - action:
+          character:
+            char: n
+        label: n
+        swipe:
+        - action:
+            character:
+              char: "\uFF1F"
+          direction: up
+          display: true
+        - action:
+            character:
+              char: "\u30FC"
+          direction: down
+          display: true
+      - action:
+          character:
+            char: m
+        label: m
+        swipe:
+        - action:
+            character:
+              char: "\u3001"
+          direction: down
+          display: true
+      - action: { characterMargin: { char: "m" } }
+        width: available
+      - action: backspace
+        width: { percentage: 0.13 }
+    - keys:
+      - action: { keyboardType: numericNineGrid }
+        width: { percentage: 0.125 }
+      - action: { keyboardType: classifySymbolic }
+        width: { percentage: 0.125 }
+      - action: space
+        width: available
+        swipe:
+        - action: { shortcutCommand: "#上个输入方案" }
+          display: false
+          processByRIME: true
+          direction: left
+        - action: { shortcutCommand: "#上个输入方案" }
+          display: false
+          processByRIME: true
+          direction: right
+      - action: enter
+        width: { percentage: 0.25 }
   keyboard/colorSchemas/+:
   - schemaName: aqua
     name: 碧水／Aqua
